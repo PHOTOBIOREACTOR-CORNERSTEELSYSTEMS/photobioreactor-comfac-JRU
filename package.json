@@ -1,0 +1,16 @@
+{
+  "name": "pbr-mqtt-recorder-render",
+  "version": "1.0.0",
+  "description": "MQTT to Supabase cloud recorder for PBR sensor records",
+  "main": "recorder.js",
+  "scripts": {
+    "start": "node recorder.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "mqtt": "^5.10.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
